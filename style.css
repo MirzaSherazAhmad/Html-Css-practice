@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#gallery {
+  width: 100%;
+}
+a{
+    text-decoration: none;
+    
+}
+
+#gallery img {
+  margin: 1%;
+  width: 30%;
+  height: 400px;
+}
+.circle {
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+}
+.circle:hover {
+  background-color: blueviolet;
+  border-radius: 50%;
+  transition: 1s;
+}
+header {
+  background-color: blueviolet;
+  
+}
+main {
+  background-color: chocolate;
+}
+
+footer {
+  background-color: coral;
+  height: 300px;
+  width: auto;
+  border: black;
+  border-style: solid;
+  border-spacing: 2px;
+}
+table,
+tr,
+td {
+  border-left: 2px solid black;
+}
